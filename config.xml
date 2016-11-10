@@ -1,9 +1,9 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.blairsutherland.fvtt" version="1.0.5">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.flatheadvalleytowntalk.fvtt" version="1.0.5">
   <name>Flathead Valley Town Talk</name>
   <description>Flathead Valley Town Talk</description>
   <author href="http://flatheadvalleytowntalk.com/" email="blairsuth@gmail.com">BlairSutherland</author>
   <content src="http://flatheadvalleytowntalk.com/mobile-app/" />
-    <preference name="phonegap-version" value="3.7.0" />
+     <preference name="phonegap-version" value="cli-6.3.0" />
 
 <preference name="SplashScreen" value="screen" /> 
   <plugin name="cordova-plugin-battery-status" source="npm" spec="~1.1.1"/>
