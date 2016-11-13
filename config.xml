@@ -1,4 +1,4 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.blairsutherland.fvtt" version="1.0.5">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.blairsutherland.fvtt" version="1.1.0">
   <name>Flathead Valley Town Talk</name>
   <description>Flathead Valley Town Talk</description>
   <author href="http://flatheadvalleytowntalk.com/" email="blairsuth@gmail.com">BlairSutherland</author>
