@@ -3,7 +3,7 @@
   <description>Flathead Valley Town Talk</description>
   <author href="http://flatheadvalleytowntalk.com/" email="blairsuth@gmail.com">BlairSutherland</author>
   <content src="http://flatheadvalleytowntalk.com/mobile-app/" />
-    <preference name="phonegap-version" value="cli-5.1.1" />
+    <preference name="phonegap-version" value="cli-6.3.0" />
 
 <preference name="SplashScreen" value="screen" /> 
   
