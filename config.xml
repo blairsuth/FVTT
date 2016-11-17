@@ -5,7 +5,7 @@
   <content src="http://flatheadvalleytowntalk.com/mobile-app/" />
      <preference name="phonegap-version" value="cli-6.3.0" />
 
-<preference name="SplashScreen" value="screen" /> 
+<preference name="SplashScreen" value="screen.png" /> 
 <preference name = "SplashMaintainAspectRatio" value = "true" />  
 <preference name="SplashScreenDelay" value="10000" />
 
