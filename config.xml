@@ -1,41 +1,21 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.blairsutherland.fvtt" version="1.1.0">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.blairsutherand.fvtt" version="2.3.1">
   <name>Flathead Valley Town Talk</name>
   <description>Flathead Valley Town Talk</description>
   <author href="http://flatheadvalleytowntalk.com/" email="blairsuth@gmail.com">BlairSutherland</author>
-  <content src="http://flatheadvalleytowntalk.com/mobile-app/" />
-    <preference name="phonegap-version" value="cli-6.3.0" />
-
-<preference name="SplashScreen" value="screen" /> 
-  
-<preference name="SplashScreenDelay" value="10000" />
-
-  <plugin name="cordova-plugin-battery-status" source="npm" spec="~1.1.1"/>
-  <plugin name="cordova-plugin-camera" source="npm" spec="~2.1.1"/>
-  <plugin name="cordova-plugin-media-capture" source="npm" spec="~1.2.0"/>
-  <plugin name="cordova-plugin-console" source="npm" spec="~1.0.2"/>
-  <plugin name="cordova-plugin-contacts" source="npm" spec="~2.0.1"/>
-  <plugin name="cordova-plugin-device" source="npm" spec="~1.1.1"/>
-  <plugin name="cordova-plugin-device-motion" source="npm" spec="~1.2.0"/>
-  <plugin name="cordova-plugin-device-orientation" source="npm" spec="~1.0.2"/>
-  <plugin name="cordova-plugin-dialogs" source="npm" spec="~1.2.0"/>
-  <plugin name="cordova-plugin-file" source="npm" spec="~4.1.1"/>
-  <plugin name="cordova-plugin-file-transfer" source="npm" spec="~1.5.0"/>
-  <plugin name="cordova-plugin-geolocation" source="npm" spec="~2.1.0"/>
-  <plugin name="cordova-plugin-globalization" source="npm" spec="~1.0.3"/>
-  <plugin name="cordova-plugin-inappbrowser" source="npm" spec="~1.5.0"/>
-  <plugin name="cordova-plugin-media" source="npm" spec="~2.2.0"/>
-  <plugin name="cordova-plugin-network-information" source="npm" spec="~1.2.0"/>
-  <plugin name="cordova-plugin-splashscreen" source="npm" spec="~3.6.0"/>
-  <plugin name="cordova-plugin-statusbar" source="npm" spec="~2.1.2"/>
-  <plugin name="cordova-plugin-vibration" source="npm" spec="~2.1.0"/>
-  <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1"/>
-  
-  
-    <gap:plugin name="org.apache.cordova.splashscreen" />
-  
+  <content src="index.html" />
     
 
+<preference name="SplashScreen" value="screen"/>
+<preference name="SplashScreenDelay" value="5000" />
+<preference name="orientation" value="portrait" />
+<preference name="DisallowOverscroll" value="true" />
+
+  <plugin name="cordova-plugin-splashscreen" source="npm" />
+  <plugin name="cordova-plugin-inappbrowser" source="npm" />
+  <plugin name="cordova-plugin-whitelist" source="npm" />
+  
   <icon src="icon.png"/>
+  <splash src="splash.png"/>
   
   
   <platform name="android">
@@ -89,12 +69,7 @@
     <splash src="res/screen/ios/Default@2x.png" platform="ios" width="680" height="960"/>
     <splash src="res/screen/ios/Default.png" platform="ios" width="320" height="480"/>
     <splash src="splash.png"/>
-    <gap:splash src="res/screen/ios/Default.png" gap:platform="ios" width="320" height="480" />
-    <gap:splash src="res/screen/ios/Default@2x.png" gap:platform="ios" width="680" height="960" />
-    <gap:splash src="res/screen/ios/Deafult-568h-2x.png" gap:platform="ios" width="640" height="1136" />
-    
-     <gap:splash src="splash.png" />
-     <splash src="splash.png"/>
+ 
   </platform>
   <platform name="wp8">
     <icon src="www/res/icon/wp8/ApplicationIcon.png" platform="wp8" width="99" height="99"/>
@@ -132,7 +107,6 @@
      <splash src="splash.png"/>
 
   <access origin="*"/>
-  <allow-navigation href="http://flatheadvalleytowntalk.com/*" />
   <allow-intent href="http://*/*"/>
   <allow-intent href="https://*/*"/>
   <allow-intent href="tel:*"/>
@@ -140,7 +114,10 @@
   <allow-intent href="mailto:*"/>
   <allow-intent href="geo:*"/>
   <platform name="android">
+    <allow-navigation href="http://flatheadvalleytowntalk.com/*" />
     <allow-intent href="market:*"/>
+    <allow-intent href="http://*/*"/>
+    <allow-intent href="https://*/*"/>
   </platform>
   <platform name="ios">
     <allow-intent href="itms:*"/>
