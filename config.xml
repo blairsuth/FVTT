@@ -8,6 +8,9 @@
 <preference name="SplashScreen" value="screen" /> 
   
 <preference name="SplashScreenDelay" value="10000" />
+  <preference name="StatusBarOverlaysWebView" value="true" /> 
+<preference name="StatusBarBackgroundColor" value="#000000" />
+<preference name="StatusBarStyle" value="lightcontent" />
 
   <plugin name="cordova-plugin-battery-status" source="npm" spec="~1.1.1"/>
   <plugin name="cordova-plugin-camera" source="npm" spec="~2.1.1"/>
@@ -31,10 +34,6 @@
   <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1"/>
   
   
-    <gap:plugin name="org.apache.cordova.splashscreen" />
-  <preference name="StatusBarOverlaysWebView" value="true" /> 
-<preference name="StatusBarBackgroundColor" value="#000000" />
-<preference name="StatusBarStyle" value="lightcontent" />
     
 
   <icon src="icon.png"/>
