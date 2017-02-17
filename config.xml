@@ -32,7 +32,9 @@
   
   
     <gap:plugin name="org.apache.cordova.splashscreen" />
-  
+  <preference name="StatusBarOverlaysWebView" value="true" /> 
+<preference name="StatusBarBackgroundColor" value="#000000" />
+<preference name="StatusBarStyle" value="lightcontent" />
     
 
   <icon src="icon.png"/>
